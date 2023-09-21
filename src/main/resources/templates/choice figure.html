@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form th:method="GET" th:action="@{/game/choiceFigure}" th:object="${imageMy}">
+
+        <form th:action="@{/game/choiceFigure/choices}">
+            <button type="submit" name="paramName" value="Empty" style="border:0 solid black; background-color: transparent;">
+                <img th:src="*{urlEmpty}" alt="Иконка" width="75" height="75">
+            </button>
+        </form>
+
+        <form th:action="@{/game/choiceFigure/choices}">
+            <button type="submit" name="paramName" value="Knight" style="border:0 solid black; background-color: transparent;">
+                <img th:src="*{urlKnightWhite}" alt="Иконка" width="75" height="75">
+            </button>
+        </form>
+
+        <form th:action="@{/game/choiceFigure/choices}">
+            <button type="submit" name="paramName" value="Bishop" style="border:0 solid black; background-color: transparent;">
+                <img th:src="*{urlBishopWhite}" alt="Иконка" width="75" height="75">
+            </button>
+        </form>
+
+        <form th:action="@{/game/choiceFigure/choices}">
+            <button type="submit" name="paramName" value="Rook" style="border:0 solid black; background-color: transparent;">
+                <img th:src="*{urlRookWhite}" alt="Иконка" width="75" height="75">
+            </button>
+        </form>
+
+        <form th:action="@{/game/choiceFigure/choices}">
+            <button type="submit" name="paramName" value="Queen" style="border:0 solid black; background-color: transparent;">
+                <img th:src="*{urlQueenWhite}" alt="Иконка" width="75" height="75">
+            </button>
+        </form>
+    </form>
+</body>
+</html>
