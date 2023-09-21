@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class ChessWithChatApplication {
+public class ChessApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ChessWithChatApplication.class, args);
+		SpringApplication.run(ChessApplication.class, args);
 	}
 
 	@Bean
