@@ -1,4 +1,4 @@
-package com.example.ChessWithChat.models;
+package com.example.ChessWithChat.game;
 
 import org.springframework.stereotype.Component;
 

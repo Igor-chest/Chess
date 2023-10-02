@@ -1,7 +1,6 @@
 package com.example.ChessWithChat.game;
 
 import com.example.ChessWithChat.game.figures.*;
-import com.example.ChessWithChat.models.ImageMy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

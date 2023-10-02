@@ -2,14 +2,11 @@ package com.example.ChessWithChat.controllers;
 
 import com.example.ChessWithChat.game.Chess;
 import com.example.ChessWithChat.game.ChessBoard;
-import com.example.ChessWithChat.game.Field;
-import com.example.ChessWithChat.models.ImageMy;
+import com.example.ChessWithChat.game.ImageMy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-
-import java.awt.*;
 
 @Controller
 @RequestMapping("/game")

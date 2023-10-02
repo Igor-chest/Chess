@@ -24,7 +24,8 @@ public class King extends Figure {
             }
             else if (finishField.getFigure().toString().equals("Rook") &&
                     finishField.getFigure().getFigureColor().equals(startField.getFigure().getFigureColor()) &&
-                    countTurn == 0 && finishField.getFigure().getCountTurn() == 0) {
+                    countTurn == 0 && finishField.getFigure().getCountTurn() == 0 &&
+                    chessBoard.isFiguresNoOnTheWayHorizontal(startField, finishField)) {
                 countTurn++;
                 return true;
             }

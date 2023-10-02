@@ -3,7 +3,7 @@ package com.example.ChessWithChat.game.figures;
 import com.example.ChessWithChat.game.ChessBoard;
 import com.example.ChessWithChat.game.Field;
 
-public class Figure {
+public abstract class Figure {
     private String figureColor;
     private ChessBoard chessBoard;
     private int countTurn;
