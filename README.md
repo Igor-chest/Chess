@@ -4,7 +4,7 @@
 - Java 11
 - PostgreSQL 15
 
-### Технологии bспользованы для проекта:
+### Технологии, использованные для проекта:
 - Spring Web
 - Spring Boot
 - Spring Data JPA
